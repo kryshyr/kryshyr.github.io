@@ -1,0 +1,61 @@
+[
+    {
+        "name": "Python",
+        "icon": "https://img.icons8.com/?size=100&id=l75OEUJkPAk4&format=png&color=000000"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "https://img.icons8.com/?size=100&id=108784&format=png&color=000000"
+    },
+    {
+        "name": "C",
+        "icon": "https://img.icons8.com/?size=100&id=shQTXiDQiQVR&format=png&color=000000"
+    },
+    {
+        "name": "Java",
+        "icon": "https://img.icons8.com/?size=100&id=13679&format=png&color=000000"
+    },
+    {
+        "name": "Flutter",
+        "icon": "https://img.icons8.com/?size=100&id=pCvIfmctRaY8&format=png&color=000000"
+    },
+    {
+        "name": "Dart",
+        "icon": "https://img.icons8.com/?size=100&id=7AFcZ2zirX6Y&format=png&color=000000"
+    },
+    {
+        "name": "HTML5",
+        "icon": "https://img.icons8.com/?size=100&id=20909&format=png&color=000000"
+    },
+    {
+        "name": "CSS3",
+        "icon": "https://img.icons8.com/?size=100&id=7gdY5qNXaKC0&format=png&color=000000"
+    },
+    {
+        "name": "React Native",
+        "icon": "https://img.icons8.com/?size=100&id=123603&format=png&color=000000"
+    },
+    {
+        "name": "Tailwind CSS",
+        "icon": "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000"
+    },
+    {
+        "name": "Firebase",
+        "icon": "https://img.icons8.com/?size=100&id=62452&format=png&color=000000"
+    },
+    {
+        "name": "PHP",
+        "icon": "https://img.icons8.com/?size=100&id=fAMVO_fuoOuC&format=png&color=000000"
+    },
+    {
+        "name": "R",
+        "icon": "https://img.icons8.com/?size=100&id=CLvQeiwFpit4&format=png&color=000000"
+    },
+    {
+        "name": "Github",
+        "icon": "https://img.icons8.com/?size=100&id=3tC9EQumUAuq&format=png&color=ffffff"
+    }
+    
+    
+    
+]

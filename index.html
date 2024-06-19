@@ -1,1 +1,374 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>PKBS Portfolio</title>
+</head>
+
+<body class="light" id="top">
+    <header class="header center">
+        <h3>
+            <a href="https://kryshyr.github.io./" class="link gradient-text gas">PKBS.</a>
+        </h3>
+
+        <nav class="nav center">
+            <ul class="nav__list center">
+                <li class="nav__list-item">
+                    <a class="link link--nav" href="#projects">Projects</a>
+                </li>
+                <li class="nav__list-item">
+                    <a class="link link--nav" href="#skills">Skills</a>
+                </li>
+                <li class="nav__list-item">
+                    <a class="link link--nav" href="#contact">Contact</a>
+                </li>
+            </ul>
+
+            <button type="button" aria-label="toggle theme" class="btn btn--icon">
+                <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+            </button>
+
+            <button type="button" aria-label="toggle navigation" class="btn btn--icon nav__hamburger">
+                <i aria-hidden="true" class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- About -->
+        <div class="about">
+            <div class="column left">
+                <h2 class="about__role">Hello there! I am</h2>
+                <h1 class="about__name gradient-text">Precious Kaira Saluria</h1>
+                <p class="about__desc">
+                    I am currently a third-year Computer Science student at University of the Philippines in the
+                    Visayas. I enjoy coding and wants to explore more about web and software development.
+                </p>
+                <!-- <div class="about__contact center">
+                    <a href="https://example.com">
+                        <span class="btn btn--outline">Resume</span>
+                    </a>
+                    <a href="https://github.com/rajshekhar26" aria-label="github" class="link link--icon">
+                        <i aria-hidden="true" class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/rajshekhar26" aria-label="linkedin" class="link link--icon">
+                        <i aria-hidden="true" class="fab fa-linkedin"></i>
+                    </a>
+                </div> -->
+            </div>
+            <div class="column right">
+                <img src="assets/profile.jpg" alt="Precious Kaira Saluria" class="about__image" />
+            </div>
+        </div>
+
+
+        <!-- Education -->
+        <section class="education">
+            <h2 class="section__title">EDUCATION</h2>
+            <ul>
+                <li>
+                    <h3>Bachelor of Science in Computer Science</h3>
+                    <p class="education__info">University of the Philippines in the Visayas <span
+                            class="education__date">September 2019 - Present</span></p>
+                </li>
+                <li>
+                    <h3>Senior High School - Science, Technology, Engineering, and Mathematics</h3>
+                    <p class="education__info">Barotac Nuevo National Comprehensive High School <span
+                            class="education__date">June 2019 - April 2021</span></p>
+                </li>
+                <li>
+                    <h3>Junior High School</h3>
+                    <p class="education__info">Barotac Nuevo National Comprehensive High School <span
+                            class="education__date">June 2016 - April 2018</span></p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section">
+            <h2 class="section__title">FEATURE PROJECTS</h2>
+            <!-- Project 1 -->
+            <div class="projects__grid">
+                <div class="project">
+                    <div class="image">
+                        <img src="assets/cas.png" alt="Project 1">
+                    </div>
+                    <div class="details">
+                        <div class="center column">
+                            <h1 class="gradient-text">UPV - DPSM Website</h1>
+                            <p class="project__description">Contributed in the development of the upvdpsm.com website by
+                                seamlessly integrating fron-tend designs into live production, ensuring optimal
+                                functionality and user experience</p>
+                            <ul class="project__stack">
+                                <li class="project__stack-item">HTML</li>
+                                <li class="project__stack-item">CSS</li>
+                                <li class="project__stack-item">Bootstrap</li>
+                                <li class="project__stack-item">JavaScript</li>
+
+                            </ul>
+                            <div class="row">
+                                <a href="https://github.com" aria-label="source code" class="link link--icon">
+                                    <i aria-hidden="true" class="fab fa-github"></i>
+                                </a>
+                                <a href="https://example.com" aria-label="live preview" class="link link--icon">
+                                    <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project">
+                    <div class="image">
+                        <img src="assets/tft.png" alt="Project 2">
+                    </div>
+                    <div class="details">
+                        <div class="center column">
+                            <h1 class="gradient-text">TFT - SynK</h1>
+                            <p class="project__description">Teamfight Tactics Team Planner for mobile.</p>
+                            <ul class="project__stack">
+                                <li class="project__stack-item">Flutter</li>
+                                <li class="project__stack-item">Dart</li>
+                                <li class="project__stack-item">Firebase</li>
+
+                            </ul>
+                            <div class="row">
+                                <a href="https://github.com" aria-label="source code" class="link link--icon">
+                                    <i aria-hidden="true" class="fab fa-github"></i>
+                                </a>
+                                <a href="https://example.com" aria-label="live preview" class="link link--icon">
+                                    <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project">
+                    <div class="image">
+                        <img src="assets/kaching.png" alt="Project 3">
+                    </div>
+                    <div class="details">
+                        <div class="center column">
+                            <h1 class="gradient-text">Kaching POS</h1>
+                            <p class="project__description">Teamfight Tactics Team Planner for mobile.</p>
+                            <ul class="project__stack">
+                                <li class="project__stack-item">Flutter</li>
+                                <li class="project__stack-item">Dart</li>
+                                <li class="project__stack-item">Firebase</li>
+
+                            </ul>
+                            <div class="row">
+                                <a href="https://github.com" aria-label="source code" class="link link--icon">
+                                    <i aria-hidden="true" class="fab fa-github"></i>
+                                </a>
+                                <a href="https://example.com" aria-label="live preview" class="link link--icon">
+                                    <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project">
+                    <div class="image">
+                        <img src="assets/typerCat.png" alt="Project 4">
+                    </div>
+                    <div class="details">
+                        <div class="center column">
+                            <h1 class="gradient-text">Typer Cat</h1>
+                            <p class="project__description">Teamfight Tactics Team Planner for mobile.</p>
+                            <ul class="project__stack">
+                                <li class="project__stack-item">Flutter</li>
+                                <li class="project__stack-item">Dart</li>
+                                <li class="project__stack-item">Firebase</li>
+                            </ul>
+                            <div class="row">
+                                <a href="https://github.com" aria-label="source code" class="link link--icon">
+                                    <i aria-hidden="true" class="fab fa-github"></i>
+                                </a>
+                                <a href="https://example.com" aria-label="live preview" class="link link--icon">
+                                    <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project">
+                    <div class="image">
+                        <img src="assets/kdoro2.png" alt="Project 5">
+                    </div>
+                    <div class="details">
+                        <div class="center column">
+                            <h1 class="gradient-text">K-Doro</h1>
+                            <p class="project__description">Teamfight Tactics Team Planner for mobile.</p>
+                            <ul class="project__stack">
+                                <li class="project__stack-item">Flutter</li>
+                                <li class="project__stack-item">Dart</li>
+                                <li class="project__stack-item">Firebase</li>
+
+                            </ul>
+                            <div class="row">
+                                <a href="https://github.com" aria-label="source code" class="link link--icon">
+                                    <i aria-hidden="true" class="fab fa-github"></i>
+                                </a>
+                                <a href="https://example.com" aria-label="live preview" class="link link--icon">
+                                    <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- skills section starts -->
+        <!-- <section class="skills" id="skills">
+
+            <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+
+            <div class="container">
+                <div class="row" id="skillsContainer">
+                </div>
+            </div>
+        </section> -->
+        <!-- skills section ends -->
+
+        <!-- Skills -->
+        <section class="section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <div class="skills">
+                <div class="container">
+                    <div class="row" id="skillsContainer">
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="wrap-circles">
+                <div class="circle-container ">
+                    <div class="circle per-70 glowing-btn">
+                        <div class="inner">70%</div>
+
+                    </div>
+                    <h1 class="skill just-center">Python</h1>
+                </div>
+                <div class="circle-container">
+                    <div class="circle per-20 glowing-btn">
+                        <div class="inner">20%</div>
+
+                    </div>
+                    <h1 class="skill just-center">JavaScript</h1>
+                </div>
+                <div class="circle-container">
+                    <div class="circle per-15 glowing-btn">
+                        <div class="inner">15%</div>
+
+                    </div>
+                    <h1 class="skill just-center">C</h1>
+                </div>
+                <div class="circle-container">
+                    <div class="circle per-0 glowing-btn">
+                        <div class="inner">0%</div>
+
+                    </div>
+                    <h1 class="skill just-center">Java</h1>
+                </div>
+                <div class="circle-container">
+                    <div class="circle per-60 glowing-btn">
+                        <div class="inner">60%</div>
+
+                    </div>
+                    <h1 class="skill just-center">HTML / CSS</h1>
+                </div>
+                <div class="circle-container">
+                    <div class="circle per-80 glowing-btn">
+                        <div class="inner">80%</div>
+
+                    </div>
+                    <h1 class="skill just-center">Flutter</h1>
+                </div>
+                <div class="circle-container">
+                    <div class="circle per-40 glowing-btn">
+                        <div class="inner">40%</div>
+
+                    </div>
+                    <h1 class="skill just-center">Dart</h1>
+                </div>
+                <div class="circle-container">
+                    <div class="circle per-25 glowing-btn">
+                        <div class="inner">25%</div>
+
+                    </div>
+                    <h1 class="skill just-center">React</h1>
+                </div>
+                <div class="circle-container">
+                    <div class="circle per-0 glowing-btn">
+                        <div class="inner">0%</div>
+
+                    </div>
+                    <h1 class="skill just-center">Tailwind</h1>
+                </div>
+                <div class="circle-container">
+                    <div class="circle per-70 glowing-btn">
+                        <div class="inner">70%</div>
+
+                    </div>
+                    <h1 class="skill just-center">Bootstrap</h1>
+                </div>
+            </div> -->
+
+
+
+            <!-- <ul class="skills__list">
+                <li class="skills__list-item btn btn--plain">HTML</li>
+                <li class="skills__list-item btn btn--plain">CSS</li>
+                <li class="skills__list-item btn btn--plain">SCSS</li>
+                <li class="skills__list-item btn btn--plain">JavaScript</li>
+                <li class="skills__list-item btn btn--plain">TypeScript</li>
+                <li class="skills__list-item btn btn--plain">React</li>
+                <li class="skills__list-item btn btn--plain">Redux</li>
+                <li class="skills__list-item btn btn--plain">Git</li>
+                <li class="skills__list-item btn btn--plain">Material UI</li>
+                <li class="skills__list-item btn btn--plain">Jest</li>
+                <li class="skills__list-item btn btn--plain">Enzyme</li>
+                <li class="skills__list-item btn btn--plain">CI/CD</li>
+            </ul> -->
+        </section>
+
+        <!-- Contact -->
+        <section class="section contact" id="contact">
+            <h2 class="section__title">Contact</h2>
+        </section>
+
+    </main>
+
+    <!-- <footer class="footer">
+        <a href="https://github.com/rajshekhar26/cleanfolio-minimal" class="link footer__link">
+            Created By Raj Shekhar
+        </a>
+    </footer> -->
+
+    <div class="scroll-container">
+        <div class="scroll-top">
+            <a aria-label="Scroll up" href="#top">
+                <i aria-hidden="true" class="fas fa-arrow-up"></i>
+            </a>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
