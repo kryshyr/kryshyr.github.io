@@ -44,31 +44,50 @@
 
     <main>
         <!-- About -->
-        <div class="about">
+        <section class="about">
             <div class="column left">
                 <h2 class="about__role">Hello there! I am</h2>
                 <h1 class="about__name gradient-text">Precious Kaira Saluria</h1>
                 <p class="about__desc">
                     I am currently a third-year Computer Science student at University of the Philippines in the
-                    Visayas. I enjoy coding and wants to explore more about web and software development.
+                    Visayas. I enjoy coding and want to explore more about web and software development.
                 </p>
-                <!-- <div class="about__contact center">
-                    <a href="https://example.com">
-                        <span class="btn btn--outline">Resume</span>
-                    </a>
-                    <a href="https://github.com/rajshekhar26" aria-label="github" class="link link--icon">
-                        <i aria-hidden="true" class="fab fa-github"></i>
-                    </a>
-                    <a href="https://linkedin.com/in/rajshekhar26" aria-label="linkedin" class="link link--icon">
-                        <i aria-hidden="true" class="fab fa-linkedin"></i>
-                    </a>
-                </div> -->
+                <div class="about__resume-social">
+                    <!-- <a href="https://example.com" class="btn btn--outline">Resume</a> -->
+                    <div class="about__contact">
+                        <ul>
+                            <li>
+                                <a href="www.linkedin.com/in/precious-kaira-saluria" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/kryshyr" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa fa-github" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/kairasophia.saluria/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:pbsaluria@up.edu.ph" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <div class="column right">
                 <img src="assets/profile.jpg" alt="Precious Kaira Saluria" class="about__image" />
             </div>
-        </div>
+            </div>
 
+        </section>
 
         <!-- Education -->
         <section class="education">
@@ -91,12 +110,127 @@
                 </li>
             </ul>
         </section>
-
         <!-- Projects -->
         <section id="projects" class="section">
             <h2 class="section__title">FEATURE PROJECTS</h2>
-            <!-- Project 1 -->
-            <div class="projects__grid">
+            <section class="projects-section">
+                <div class="projects-container"></div>
+            </section>
+        </section>
+
+        <!-- Projects
+        <section id="projects" class="section">
+            <h2 class="section__title">FEATURE PROJECTS</h2>
+            <section class="projects-section">
+                <div class="projects-container">
+                    <div class="project">
+                        <img src="assets/cas.png" alt="upv dpsm website">
+                        <h2>UPV - DPSM Website</h2>
+                        <div class="icon-container">
+                            <a href="https://github.com/xkaze09/dpsm-website" target="_blank" rel="noopener noreferrer"
+                                class="icon-link github">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="github">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                                </svg>
+                            </a>
+                            <a href="https://upvdpsm.com/" target="_blank" rel="noopener noreferrer"
+                                class="icon-link website">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="website">
+                                    <path
+                                        d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3" />
+                                    <line x1="8" y1="12" x2="16" y2="12" />
+                                </svg>
+                            </a>
+                        </div>
+
+                        <p>The official website of the University of the Philippines Visayas' Division of Physical
+                            Sciences and Mathematics, designed to provide students, faculty, and staff with easy access
+                            to essential information, resources, and updates.</p>
+                    </div>
+                    <div class="project">
+                        <img src="assets/tft.png" alt="tft-synk">
+                        <h2>TFT - SynK</h2>
+                        <div class="icon-container">
+                            <a href="https://github.com/kryshyr/tft_synk" target="_blank" rel="noopener noreferrer"
+                                class="icon-link github">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="github">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                                </svg>
+                            </a>
+
+                        </div>
+                        <p>A mobile team composition planner for Teamfight Tactics, where users can create, customize,
+                            and save their team compositions for future reference.</p>
+                    </div>
+                    <div class="project">
+                        <img src="assets/kaching.png" alt="Kaching Mobile POS">
+                        <h2>Kaching Mobile POS</h2>
+                        <div class="icon-container">
+                            <a href="https://github.com/dreeew05/Kaching" target="_blank" rel="noopener noreferrer"
+                                class="icon-link github">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="github">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                                </svg>
+                            </a>
+
+                        </div>
+                        <p>A mobile Point of Sale (POS) application designed to streamline transactions and manage sales
+                            efficiently for small businesses</p>
+                    </div>
+                    <div class="project">
+                        <img src="assets/typerCat.png" alt="Typer Cat">
+                        <h2>Typer Cat</h2>
+                        <div class="icon-container">
+                            <a href="https://github.com/kryshyr/typer-cat" target="_blank" rel="noopener noreferrer"
+                                class="icon-link github">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="github">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                                </svg>
+                            </a>
+
+                        </div>
+                        <p> A fun and engaging typing game where players improve their typing skills by typing out words
+                            that appear on the screen to prevent a cat from falling into the jaws of a shark, with
+                            varying difficulty levels and a points system to track progress.</p>
+                    </div>
+                    <div class="project">
+                        <img src="assets/kdoro2.png" alt="KDoro">
+                        <h2>KDoro</h2>
+                        <div class="icon-container">
+                            <a href="https://github.com/sengokus/K-Doro" target="_blank" rel="noopener noreferrer"
+                                class="icon-link github">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="github">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                                </svg>
+                            </a>
+
+                        </div>
+                        <p>A productivity app that combines the Pomodoro technique with videos of K-pop idols, making
+                            users feel like they are studying together with their favorite stars. It also includes a
+                            to-do list feature for better task management.</p>
+                    </div>
+
+                </div>
+            </section> -->
+
+        <!-- <div class="projects__grid">
                 <div class="project">
                     <div class="image">
                         <img src="assets/cas.png" alt="Project 1">
@@ -126,7 +260,7 @@
                     </div>
                 </div>
 
-                <!-- Project 2 -->
+
                 <div class="project">
                     <div class="image">
                         <img src="assets/tft.png" alt="Project 2">
@@ -153,7 +287,7 @@
                     </div>
                 </div>
 
-                <!-- Project 3 -->
+
                 <div class="project">
                     <div class="image">
                         <img src="assets/kaching.png" alt="Project 3">
@@ -180,7 +314,7 @@
                     </div>
                 </div>
 
-                <!-- Project 4 -->
+
                 <div class="project">
                     <div class="image">
                         <img src="assets/typerCat.png" alt="Project 4">
@@ -206,7 +340,7 @@
                     </div>
                 </div>
 
-                <!-- Project 5 -->
+
                 <div class="project">
                     <div class="image">
                         <img src="assets/kdoro2.png" alt="Project 5">
@@ -233,7 +367,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- skills section starts -->
         <!-- <section class="skills" id="skills">
@@ -347,18 +481,39 @@
             </ul> -->
         </section>
 
-        <!-- Contact -->
-        <section class="section contact" id="contact">
-            <h2 class="section__title">Contact</h2>
-        </section>
+
 
     </main>
 
-    <!-- <footer class="footer">
-        <a href="https://github.com/rajshekhar26/cleanfolio-minimal" class="link footer__link">
-            Created By Raj Shekhar
-        </a>
-    </footer> -->
+    <!-- Footer -->
+    <section class="footer" id="contact">
+        <div class="footer-container">
+            <div class="footer-text-container">
+                <p>&copy; Precious Kaira Saluria</p>
+            </div>
+            <div class="social-icons">
+                <a href="#" class="social-icon">
+                    <span class="sr-only">Facebook</span>
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <span class="sr-only">Instagram</span>
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <span class="sr-only">Twitter</span>
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <span class="sr-only">GitHub</span>
+                    <i class="fa fa-github"></i>
+                </a>
+            </div>
+
+
+        </div>
+    </section>
+
 
     <div class="scroll-container">
         <div class="scroll-top">

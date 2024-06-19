@@ -1,0 +1,66 @@
+[
+    {
+        "image": "assets/cas.png",
+        "title": "UPV - DPSM Website",
+        "description": "The official website of the University of the Philippines Visayas' Division of Physical Sciences and Mathematics, designed to provide students, faculty, and staff with easy access to essential information, resources, and updates.",
+        "links": [
+            {
+                "href": "https://github.com/xkaze09/dpsm-website",
+                "type": "github"
+            },
+            {
+                "href": "https://upvdpsm.com/",
+                "type": "website"
+            }
+        ],
+        "techStack": ["HTML", "CSS", "JavaScript", "Bootstrap"]
+    },
+    {
+        "image": "assets/tft.png",
+        "title": "TFT - SynK",
+        "description": "A mobile team composition planner for Teamfight Tactics, where users can create, customize, and save their team compositions for future reference.",
+        "links": [
+            {
+                "href": "https://github.com/kryshyr/tft_synk",
+                "type": "github"
+            }
+        ],
+        "techStack": ["Flutter", "Dart", "Firebase"]
+    },
+    {
+        "image": "assets/kaching.png",
+        "title": "Kaching Mobile POS",
+        "description": "A mobile Point of Sale (POS) application designed to streamline transactions and manage sales efficiently for small businesses.",
+        "links": [
+            {
+                "href": "https://github.com/dreeew05/Kaching",
+                "type": "github"
+            }
+        ],
+        "techStack": ["React Native", "Tailwind CSS", "SQLite"]
+    },
+    {
+        "image": "assets/typerCat.png",
+        "title": "Typer Cat",
+        "description": "A fun and engaging typing game where players improve their typing skills by typing out words that appear on the screen to prevent a cat from falling into the jaws of a shark, with varying difficulty levels and a points system to track progress.",
+        "links": [
+            {
+                "href": "https://github.com/kryshyr/typer-cat",
+                "type": "github"
+            }
+        ],
+        "techStack": ["Java"]
+    },
+    {
+        "image": "assets/kdoro2.png",
+        "title": "KDoro",
+        "description": "A productivity app that combines the Pomodoro technique with videos of K-pop idols, making users feel like they are studying together with their favorite stars. It also includes a to-do list feature for better task management.",
+        "links": [
+            {
+                "href": "https://github.com/sengokus/K-Doro",
+                "type": "github"
+            }
+        ],
+        "techStack": ["HTML", "CSS", "JavaScript"]
+    }
+]
