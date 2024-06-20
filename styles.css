@@ -986,7 +986,7 @@ main {
 }
 
 .social-icon:hover {
-  color: var(--clr-primary);
+  color: var(--social-icons-bg-hover);
 }
 
 .footer-container .left {
@@ -1334,3 +1334,4 @@ svg path{
   transition: 1s;
   transition-delay: 1s;
 } */
+
