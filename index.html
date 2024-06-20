@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Portfolio" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
@@ -46,18 +48,27 @@
         <!-- About -->
         <section class="about">
             <div class="column left">
-                <h2 class="about__role">Hello there! I am</h2>
+                <h3 class="">Hello there! I am</h3>
                 <h1 class="about__name gradient-text">Precious Kaira Saluria</h1>
+                <!-- <h3>You can call me&nbsp;<span class="typewriter"></span> -->
+                </h3>
                 <p class="about__desc">
-                    I am currently a third-year Computer Science student at University of the Philippines in the
-                    Visayas. I enjoy coding and want to explore more about web and software development.
+                    Currently a third-year Bachelor of Science in Computer Science student at University of the
+                    Philippines in the
+                    Visayas.
+                </p>
+
+                <p class="about__desc">
+                    I enjoy coding and want to explore more about web and mobile development. I am strongly interested
+                    in learning new technologies and implementing them in my projects. I'm a self-motivated and
+                    hardworking individual who is always ready to learn new things and work in a team.
                 </p>
                 <div class="about__resume-social">
-                    <!-- <a href="https://example.com" class="btn btn--outline">Resume</a> -->
+
                     <div class="about__contact">
                         <ul>
                             <li>
-                                <a href="www.linkedin.com/in/precious-kaira-saluria" target="_blank"
+                                <a href="http://www.linkedin.com/in/precious-kaira-saluria" target="_blank"
                                     rel="noopener noreferrer">
                                     <i class="fa fa-linkedin" aria-hidden="true"></i>
                                 </a>
@@ -78,9 +89,11 @@
                                     <i class="fa fa-envelope" aria-hidden="true"></i>
                                 </a>
                             </li>
+
                         </ul>
                     </div>
                 </div>
+                <!-- <a href="https://example.com" class="btn btn--outline">Downdload Resume</a> -->
             </div>
             <div class="column right">
                 <img src="assets/profile.jpg" alt="Precious Kaira Saluria" class="about__image" />
@@ -118,269 +131,6 @@
             </section>
         </section>
 
-        <!-- Projects
-        <section id="projects" class="section">
-            <h2 class="section__title">FEATURE PROJECTS</h2>
-            <section class="projects-section">
-                <div class="projects-container">
-                    <div class="project">
-                        <img src="assets/cas.png" alt="upv dpsm website">
-                        <h2>UPV - DPSM Website</h2>
-                        <div class="icon-container">
-                            <a href="https://github.com/xkaze09/dpsm-website" target="_blank" rel="noopener noreferrer"
-                                class="icon-link github">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
-                                    fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="github">
-                                    <path
-                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
-                                </svg>
-                            </a>
-                            <a href="https://upvdpsm.com/" target="_blank" rel="noopener noreferrer"
-                                class="icon-link website">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
-                                    fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="website">
-                                    <path
-                                        d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3" />
-                                    <line x1="8" y1="12" x2="16" y2="12" />
-                                </svg>
-                            </a>
-                        </div>
-
-                        <p>The official website of the University of the Philippines Visayas' Division of Physical
-                            Sciences and Mathematics, designed to provide students, faculty, and staff with easy access
-                            to essential information, resources, and updates.</p>
-                    </div>
-                    <div class="project">
-                        <img src="assets/tft.png" alt="tft-synk">
-                        <h2>TFT - SynK</h2>
-                        <div class="icon-container">
-                            <a href="https://github.com/kryshyr/tft_synk" target="_blank" rel="noopener noreferrer"
-                                class="icon-link github">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
-                                    fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="github">
-                                    <path
-                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
-                                </svg>
-                            </a>
-
-                        </div>
-                        <p>A mobile team composition planner for Teamfight Tactics, where users can create, customize,
-                            and save their team compositions for future reference.</p>
-                    </div>
-                    <div class="project">
-                        <img src="assets/kaching.png" alt="Kaching Mobile POS">
-                        <h2>Kaching Mobile POS</h2>
-                        <div class="icon-container">
-                            <a href="https://github.com/dreeew05/Kaching" target="_blank" rel="noopener noreferrer"
-                                class="icon-link github">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
-                                    fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="github">
-                                    <path
-                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
-                                </svg>
-                            </a>
-
-                        </div>
-                        <p>A mobile Point of Sale (POS) application designed to streamline transactions and manage sales
-                            efficiently for small businesses</p>
-                    </div>
-                    <div class="project">
-                        <img src="assets/typerCat.png" alt="Typer Cat">
-                        <h2>Typer Cat</h2>
-                        <div class="icon-container">
-                            <a href="https://github.com/kryshyr/typer-cat" target="_blank" rel="noopener noreferrer"
-                                class="icon-link github">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
-                                    fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="github">
-                                    <path
-                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
-                                </svg>
-                            </a>
-
-                        </div>
-                        <p> A fun and engaging typing game where players improve their typing skills by typing out words
-                            that appear on the screen to prevent a cat from falling into the jaws of a shark, with
-                            varying difficulty levels and a points system to track progress.</p>
-                    </div>
-                    <div class="project">
-                        <img src="assets/kdoro2.png" alt="KDoro">
-                        <h2>KDoro</h2>
-                        <div class="icon-container">
-                            <a href="https://github.com/sengokus/K-Doro" target="_blank" rel="noopener noreferrer"
-                                class="icon-link github">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
-                                    fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="github">
-                                    <path
-                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
-                                </svg>
-                            </a>
-
-                        </div>
-                        <p>A productivity app that combines the Pomodoro technique with videos of K-pop idols, making
-                            users feel like they are studying together with their favorite stars. It also includes a
-                            to-do list feature for better task management.</p>
-                    </div>
-
-                </div>
-            </section> -->
-
-        <!-- <div class="projects__grid">
-                <div class="project">
-                    <div class="image">
-                        <img src="assets/cas.png" alt="Project 1">
-                    </div>
-                    <div class="details">
-                        <div class="center column">
-                            <h1 class="gradient-text">UPV - DPSM Website</h1>
-                            <p class="project__description">Contributed in the development of the upvdpsm.com website by
-                                seamlessly integrating fron-tend designs into live production, ensuring optimal
-                                functionality and user experience</p>
-                            <ul class="project__stack">
-                                <li class="project__stack-item">HTML</li>
-                                <li class="project__stack-item">CSS</li>
-                                <li class="project__stack-item">Bootstrap</li>
-                                <li class="project__stack-item">JavaScript</li>
-
-                            </ul>
-                            <div class="row">
-                                <a href="https://github.com" aria-label="source code" class="link link--icon">
-                                    <i aria-hidden="true" class="fab fa-github"></i>
-                                </a>
-                                <a href="https://example.com" aria-label="live preview" class="link link--icon">
-                                    <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="project">
-                    <div class="image">
-                        <img src="assets/tft.png" alt="Project 2">
-                    </div>
-                    <div class="details">
-                        <div class="center column">
-                            <h1 class="gradient-text">TFT - SynK</h1>
-                            <p class="project__description">Teamfight Tactics Team Planner for mobile.</p>
-                            <ul class="project__stack">
-                                <li class="project__stack-item">Flutter</li>
-                                <li class="project__stack-item">Dart</li>
-                                <li class="project__stack-item">Firebase</li>
-
-                            </ul>
-                            <div class="row">
-                                <a href="https://github.com" aria-label="source code" class="link link--icon">
-                                    <i aria-hidden="true" class="fab fa-github"></i>
-                                </a>
-                                <a href="https://example.com" aria-label="live preview" class="link link--icon">
-                                    <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="project">
-                    <div class="image">
-                        <img src="assets/kaching.png" alt="Project 3">
-                    </div>
-                    <div class="details">
-                        <div class="center column">
-                            <h1 class="gradient-text">Kaching POS</h1>
-                            <p class="project__description">Teamfight Tactics Team Planner for mobile.</p>
-                            <ul class="project__stack">
-                                <li class="project__stack-item">Flutter</li>
-                                <li class="project__stack-item">Dart</li>
-                                <li class="project__stack-item">Firebase</li>
-
-                            </ul>
-                            <div class="row">
-                                <a href="https://github.com" aria-label="source code" class="link link--icon">
-                                    <i aria-hidden="true" class="fab fa-github"></i>
-                                </a>
-                                <a href="https://example.com" aria-label="live preview" class="link link--icon">
-                                    <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="project">
-                    <div class="image">
-                        <img src="assets/typerCat.png" alt="Project 4">
-                    </div>
-                    <div class="details">
-                        <div class="center column">
-                            <h1 class="gradient-text">Typer Cat</h1>
-                            <p class="project__description">Teamfight Tactics Team Planner for mobile.</p>
-                            <ul class="project__stack">
-                                <li class="project__stack-item">Flutter</li>
-                                <li class="project__stack-item">Dart</li>
-                                <li class="project__stack-item">Firebase</li>
-                            </ul>
-                            <div class="row">
-                                <a href="https://github.com" aria-label="source code" class="link link--icon">
-                                    <i aria-hidden="true" class="fab fa-github"></i>
-                                </a>
-                                <a href="https://example.com" aria-label="live preview" class="link link--icon">
-                                    <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="project">
-                    <div class="image">
-                        <img src="assets/kdoro2.png" alt="Project 5">
-                    </div>
-                    <div class="details">
-                        <div class="center column">
-                            <h1 class="gradient-text">K-Doro</h1>
-                            <p class="project__description">Teamfight Tactics Team Planner for mobile.</p>
-                            <ul class="project__stack">
-                                <li class="project__stack-item">Flutter</li>
-                                <li class="project__stack-item">Dart</li>
-                                <li class="project__stack-item">Firebase</li>
-
-                            </ul>
-                            <div class="row">
-                                <a href="https://github.com" aria-label="source code" class="link link--icon">
-                                    <i aria-hidden="true" class="fab fa-github"></i>
-                                </a>
-                                <a href="https://example.com" aria-label="live preview" class="link link--icon">
-                                    <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-        <!-- skills section starts -->
-        <!-- <section class="skills" id="skills">
-
-            <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
-
-            <div class="container">
-                <div class="row" id="skillsContainer">
-                </div>
-            </div>
-        </section> -->
-        <!-- skills section ends -->
-
         <!-- Skills -->
         <section class="section" id="skills">
             <h2 class="section__title">Skills</h2>
@@ -390,125 +140,78 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="wrap-circles">
-                <div class="circle-container ">
-                    <div class="circle per-70 glowing-btn">
-                        <div class="inner">70%</div>
-
-                    </div>
-                    <h1 class="skill just-center">Python</h1>
-                </div>
-                <div class="circle-container">
-                    <div class="circle per-20 glowing-btn">
-                        <div class="inner">20%</div>
-
-                    </div>
-                    <h1 class="skill just-center">JavaScript</h1>
-                </div>
-                <div class="circle-container">
-                    <div class="circle per-15 glowing-btn">
-                        <div class="inner">15%</div>
-
-                    </div>
-                    <h1 class="skill just-center">C</h1>
-                </div>
-                <div class="circle-container">
-                    <div class="circle per-0 glowing-btn">
-                        <div class="inner">0%</div>
-
-                    </div>
-                    <h1 class="skill just-center">Java</h1>
-                </div>
-                <div class="circle-container">
-                    <div class="circle per-60 glowing-btn">
-                        <div class="inner">60%</div>
-
-                    </div>
-                    <h1 class="skill just-center">HTML / CSS</h1>
-                </div>
-                <div class="circle-container">
-                    <div class="circle per-80 glowing-btn">
-                        <div class="inner">80%</div>
-
-                    </div>
-                    <h1 class="skill just-center">Flutter</h1>
-                </div>
-                <div class="circle-container">
-                    <div class="circle per-40 glowing-btn">
-                        <div class="inner">40%</div>
-
-                    </div>
-                    <h1 class="skill just-center">Dart</h1>
-                </div>
-                <div class="circle-container">
-                    <div class="circle per-25 glowing-btn">
-                        <div class="inner">25%</div>
-
-                    </div>
-                    <h1 class="skill just-center">React</h1>
-                </div>
-                <div class="circle-container">
-                    <div class="circle per-0 glowing-btn">
-                        <div class="inner">0%</div>
-
-                    </div>
-                    <h1 class="skill just-center">Tailwind</h1>
-                </div>
-                <div class="circle-container">
-                    <div class="circle per-70 glowing-btn">
-                        <div class="inner">70%</div>
-
-                    </div>
-                    <h1 class="skill just-center">Bootstrap</h1>
-                </div>
-            </div> -->
-
-
-
-            <!-- <ul class="skills__list">
-                <li class="skills__list-item btn btn--plain">HTML</li>
-                <li class="skills__list-item btn btn--plain">CSS</li>
-                <li class="skills__list-item btn btn--plain">SCSS</li>
-                <li class="skills__list-item btn btn--plain">JavaScript</li>
-                <li class="skills__list-item btn btn--plain">TypeScript</li>
-                <li class="skills__list-item btn btn--plain">React</li>
-                <li class="skills__list-item btn btn--plain">Redux</li>
-                <li class="skills__list-item btn btn--plain">Git</li>
-                <li class="skills__list-item btn btn--plain">Material UI</li>
-                <li class="skills__list-item btn btn--plain">Jest</li>
-                <li class="skills__list-item btn btn--plain">Enzyme</li>
-                <li class="skills__list-item btn btn--plain">CI/CD</li>
-            </ul> -->
         </section>
-
-
 
     </main>
 
     <!-- Footer -->
     <section class="footer" id="contact">
         <div class="footer-container">
-            <div class="footer-text-container">
-                <p>&copy; Precious Kaira Saluria</p>
+
+            <div class="footer-text-container left">
+                <h2>Contact Me</h2>
+                <p>&copy; Precious Kaira Saluria - 2024</p>
             </div>
             <div class="social-icons">
-                <a href="#" class="social-icon">
+                <a href="http://www.linkedin.com/in/precious-kaira-saluria" target="_blank"
+                    rel="noopener noreferrer" class="social-icon">
+                    <span class="sr-only">fa-linkedin</span>
+                    <i class="fa fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/kryshyr" target="_blank" rel="noopener noreferrer" class="social-icon">
+                    <span class="sr-only">Github</span>
+                    <i class="fa fa-github"></i>
+                </a>
+                <a href="https://www.facebook.com/kairasophia.saluria/" target="_blank" rel="noopener noreferrer"
+                    class="social-icon">
                     <span class="sr-only">Facebook</span>
                     <i class="fa fa-facebook"></i>
                 </a>
-                <a href="#" class="social-icon">
-                    <span class="sr-only">Instagram</span>
-                    <i class="fa fa-instagram"></i>
-                </a>
-                <a href="#" class="social-icon">
-                    <span class="sr-only">Twitter</span>
-                    <i class="fa fa-twitter"></i>
-                </a>
-                <a href="#" class="social-icon">
-                    <span class="sr-only">GitHub</span>
-                    <i class="fa fa-github"></i>
+                <a href="mailto:pbsaluria@up.edu.ph" target="_blank" rel="noopener noreferrer" class="social-icon">
+                    <span class="sr-only">Email</span>
+                    <i class="fa fa-envelope"></i>
                 </a>
             </div>
+
+
+            <!-- <div class="screen-body-item">
+                <div class="app-form">
+                    <div class="app-form-group">
+                        <input class="app-form-control" placeholder="NAME" value="Krisantus Wanandi">
+                    </div>
+                    <div class="app-form-group">
+                        <input class="app-form-control" placeholder="EMAIL">
+                    </div>
+                    <div class="app-form-group">
+                        <input class="app-form-control" placeholder="CONTACT NO">
+                    </div>
+                    <div class="app-form-group message">
+                        <input class="app-form-control" placeholder="MESSAGE">
+                    </div>
+                    <div class="app-form-group buttons">
+                        <button class="app-form-button">SEND</button>
+                    </div>
+                    <div class="submit-con">
+                        <button id="btn">
+                            <p id="btnText">Submit</p>
+                            <div class="check-box">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                                    <path fill="transparent" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                                </svg>
+                            </div>
+                        </button>
+                    </div>
+                    <script type="text/javascript">
+                        const btn = document.querySelector("#btn")
+                        const btnText = document.querySelector("#btnText");
+                
+                        btn.onclick = () => {
+                            btnText.innerHTML = "Thanks";
+                            btn.classList.add("active");
+                        };
+                    </script>
+                </div>
+            </div> -->
 
 
         </div>

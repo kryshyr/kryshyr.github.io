@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <img src="${project.image}" alt="${project.title}">
                     <h2>${project.title}</h2>
                     <div class="tech-stack">
-                        ${project.techStack.map(tech => `<button class="tech-button">${tech}</button>`).join('')}
+                        ${project.techStack.map(tech => `<div class="tech-button">${tech}</div>`).join('')}
                     </div>
                     <div class="icon-container">
                         ${project.links.map(link => `
@@ -134,3 +134,5 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .catch(error => console.error('Error fetching projects:', error));
 });
+
+

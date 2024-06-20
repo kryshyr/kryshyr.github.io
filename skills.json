@@ -7,9 +7,14 @@
         "name": "JavaScript",
         "icon": "https://img.icons8.com/?size=100&id=108784&format=png&color=000000"
     },
+    
     {
         "name": "C",
         "icon": "https://img.icons8.com/?size=100&id=shQTXiDQiQVR&format=png&color=000000"
+    },
+    {
+        "name": "Assembly",
+        "icon": "https://img.icons8.com/?size=100&id=gVK745a4Vaur&format=png&color=000000"
     },
     {
         "name": "Java",
@@ -34,6 +39,10 @@
     {
         "name": "React Native",
         "icon": "https://img.icons8.com/?size=100&id=123603&format=png&color=000000"
+    },
+    {
+        "name": "TypeScript",
+        "icon": "https://img.icons8.com/?size=100&id=Xf1sHBmY73hA&format=png&color=000000"
     },
     {
         "name": "Tailwind CSS",
