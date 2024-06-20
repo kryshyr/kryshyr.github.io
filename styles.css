@@ -43,6 +43,8 @@ body {
   --footer-name:#444444;
   --social-icons-bg: #444444;
   --social-icons-bg-hover: #858585;
+  --footer-shadow: rgba(240, 240, 240, 0.5);
+
 }
 
 .dark {
@@ -63,6 +65,8 @@ body {
   --footer-name:#fff;
   --social-icons-bg: #90a0d9;
   --social-icons-bg-hover: hsl(200, 92%, 69%);
+  --footer-shadow: rgba(31, 31, 31, 0.5);
+
 }
 
 ::-moz-selection {
@@ -952,7 +956,7 @@ main {
   padding: 50px 0;
   overflow: hidden;
   text-align: center;
-  box-shadow: inset 0px 50px 63px -17px rgba(31, 31, 31, 0.5);
+  box-shadow: inset 0px 50px 63px -17px var(--footer-shadow);
 }
 
 .footer-container {
