@@ -103,6 +103,9 @@ h3 {
 h4 {
   font-size: 1.3rem;
 }
+h5 {
+  font-size: 1.1rem;
+}
 
 ul {
   list-style-type: none;
@@ -409,6 +412,7 @@ main {
   overflow: hidden;
   background: #000;
   /* border-radius: 20px; */
+  transition: transform 0.3s ease;
 }
 
 .skills__list {
@@ -527,7 +531,7 @@ main {
 }
 
 .education__date {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-style: italic;
 }
 
@@ -757,8 +761,12 @@ main {
 
 .project img {
   width: 100%;
-  height: auto;
-  display: block;
+  transition: transform 1s ease;
+  cursor: pointer;
+}
+
+.project img:hover {
+  transform: scale(1.1);
 }
 
 .project h2 {
@@ -1335,3 +1343,36 @@ svg path{
   transition-delay: 1s;
 } */
 
+
+
+
+
+/* system out print */
+
+
+.string {
+
+  text-align: center;
+}
+
+.greeting {
+  position: relative;
+
+
+}
+
+.en {
+  color: #fa8231;
+}
+
+.print{
+  background: var(--clr-bg);
+  font-size: 2vmin;
+  font-family: JetBrains Mono, monospace;
+  height: 100%;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e4bb68;
+}

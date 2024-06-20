@@ -45,8 +45,11 @@ const displayList = () => {
 	}
 }
 
+//HAMBURGER NAVIGATION FOR MOBILE
 btnHamburger.addEventListener('click', displayList)
 
+
+// SCROLL ARROW
 const scrollUp = () => {
 	const btnScrollTop = document.querySelector('.scroll-top')
 
@@ -63,6 +66,7 @@ const scrollUp = () => {
 document.addEventListener('scroll', scrollUp)
 
 
+//SKILLS
 async function fetchData(type = "skills") {
 	let response
 	type === "skills" ?
@@ -92,6 +96,8 @@ fetchData().then(data => {
 	showSkills(data);
 });
 
+// PROJECTS
+
 document.addEventListener('DOMContentLoaded', function() {
     fetch('projects.json')
         .then(response => response.json())
@@ -101,8 +107,15 @@ document.addEventListener('DOMContentLoaded', function() {
                 const projectElement = document.createElement('div');
                 projectElement.classList.add('project');
 
+                // Determine the correct link for the project image
+                const projectLink = project.title === "UPV - DPSM Website"
+                    ? project.links.find(link => link.type === "website").href
+                    : project.links[0].href;
+
                 const projectHTML = `
-                    <img src="${project.image}" alt="${project.title}">
+                    <a href="${projectLink}" target="_blank" rel="noopener noreferrer">
+                        <img src="${project.image}" alt="${project.title}">
+                    </a>
                     <h2>${project.title}</h2>
                     <div class="tech-stack">
                         ${project.techStack.map(tech => `<div class="tech-button">${tech}</div>`).join('')}
@@ -134,5 +147,3 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .catch(error => console.error('Error fetching projects:', error));
 });
-
-
