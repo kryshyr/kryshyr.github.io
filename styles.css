@@ -28,6 +28,7 @@ body {
 
 .light {
   --clr-bg: #fcfcfc;
+  --clr-bg-ham: #fcfcfc;
   --clr-bg-alt: #fff;
   --clr-fg: #555;
   --clr-fg-alt: #444;
@@ -48,7 +49,8 @@ body {
 }
 
 .dark {
-  --clr-bg: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);;
+  --clr-bg: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
+  --clr-bg-ham: radial-gradient( #0d1d31 0%, #0c0d13 100%);
   --clr-bg-alt: #2a2f4c;
   --clr-fg: #bdbddd;
   --clr-fg-alt: #cdcdff;
@@ -470,7 +472,7 @@ main {
     right: 0;
     left: 0;
     top: 5em;
-    background-color: var(--clr-bg);
+    background: var(--clr-bg-ham);
     width: 0;
     overflow: hidden;
     transition: width 0.2s ease-in-out;
