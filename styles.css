@@ -749,6 +749,12 @@ main {
   grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
   grid-column-gap: 6em;
   grid-row-gap: 3em;
+  transition: transform 1s ease;
+}
+.projects-section .projects-container h2:hover{
+  color: dodgerblue;
+
+
 }
 
 .project {
