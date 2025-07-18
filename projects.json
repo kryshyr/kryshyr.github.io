@@ -1,5 +1,17 @@
 [
     {
+        "image": "assets/customer_portal.png",
+        "title": "DOST Region VI - Customer Portal",
+        "description": "The official website of the DOST Region VI - Customer Portal, designed to provide a user-friendly interface for customers to efficiently access DOST Region VI services.",
+        "links": [
+            {
+                "href": "https://customer.dost6.ph/",
+                "type": "website"
+            }
+        ],
+        "techStack": ["CodeIgniter", "HTML", "Bulma CSS", "JavaScript", "MySQL"]
+    },
+    {
         "image": "assets/cas.png",
         "title": "UPV - DPSM Website",
         "description": "The official website of the University of the Philippines Visayas' Division of Physical Sciences and Mathematics, designed to provide students, faculty, and staff with easy access to essential information, resources, and updates.",
